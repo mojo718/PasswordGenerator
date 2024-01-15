@@ -42,14 +42,8 @@ var generatePassword = function () {
 
   // var for password Having trouble figuring out how to use Math.random
 
-
-
   var password =""
   
-
-
-
-
   return password;
 }
 
