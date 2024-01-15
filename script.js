@@ -40,9 +40,14 @@ var generatePassword = function () {
     return;
   }
 
-  // var for password Having trouble figuring out how to use Math.random
+  // var for password 
+  // Used for loop and math.random to generate password
 
-  var password =""
+  var password ="";
+  for (var i= 0; i < passwordLength; i++) 
+  {var randomIndex = Math.floor (Math.random() * char.length);
+    password +=char.charAt(randomIndex)
+  }
   
   return password;
 }
