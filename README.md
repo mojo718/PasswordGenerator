@@ -4,7 +4,7 @@ Password Generator using JS script for Challenge 3
 
 ## Getting Started:
 1. Clone the repository from https://github.com/mojo718/PasswordGenerator
-2. Open script.js in you favorite code editor to review the Javascript
+2. Open script.js in your favorite code editor to review the Javascript
 
 Live site:
 https://mojo718.github.io/PasswordGenerator
