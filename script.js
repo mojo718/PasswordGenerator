@@ -6,8 +6,8 @@ var generatePassword = function () {
   // Used Logical or || - learned from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR
 
   var passwordLength = prompt("Enter the password length:"); 
-  // stuck on this part.  doesnt seem to be working (cant figure out if statement wont return)
-  if (passwordLength < 8 || passwordLength > 128) {
+  // fixed on 1/16 - forgot top bracket which cascaded issues.
+  if (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)) {
     alert("Please enter a number between 8 and 128 and try again.");
    return;
   }
